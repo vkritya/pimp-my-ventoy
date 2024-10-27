@@ -1,0 +1,81 @@
+{
+    "control":[
+        { "VTOY_LINUX_REMOUNT": "1" },
+        { "VTOY_DEFAULT_KBD_LAYOUT": "QWERTZ_HUN" },
+        { "VTOY_DEFAULT_SEARCH_ROOT": "/_ISO" }
+    ],
+	"theme":{
+        "file":[
+            "/ventoy/themes/ventoy-just-black/theme.txt",
+			"/ventoy/themes/grub-gta-mod/theme.txt"
+        ],
+        "ventoy_top": "100%",
+        "ventoy_color": "#000000",
+        "default_file": 3,
+        "resolution_fit": 1,
+		"fonts": [
+			"/ventoy/themes/grub-gta-mod/bank-gothic-24.pf2",
+			"/ventoy/themes/grub-gta-mod/futura-lt-heavy-24.pf2",
+			"/ventoy/themes/grub-gta-mod/unifont-24.pf2",
+			"/ventoy/themes/grub-gta-mod/beckett-regular-60.pf2"
+		]
+    },
+    "menu_class":[
+        {
+            "parent": "/_ISO/Windows",
+            "class": "windows"
+        },
+        {
+            "dir": "/_ISO/Windows",
+            "class": "windows"
+        },
+        {
+            "parent": "/_ISO/Arch",
+            "class": "archlinux"
+        },
+		{
+            "dir": "/_ISO/Arch",
+            "class": "archlinux"
+        },
+        {
+            "parent": "/_ISO/Ubuntu",
+            "class": "ubuntu"
+        },
+        {
+            "dir": "/_ISO/Ubuntu",
+            "class": "ubuntu"
+        },
+        {
+            "parent": "/_ISO/Manjaro",
+            "class": "manjaro"
+        },
+        {
+            "dir": "/_ISO/Manjaro",
+            "class": "manjaro"
+        },
+        {
+            "parent": "/_ISO/Rocky",
+            "class": "rocky"
+        },
+        {
+            "dir": "/_ISO/Rocky",
+            "class": "rocky"
+        },
+        {
+            "parent": "/_ISO/Debian",
+            "class": "debian"
+        },
+        {
+            "dir": "/_ISO/Debian",
+            "class": "debian"
+        },
+        {
+            "parent": "/_ISO/Mint",
+            "class": "mint"
+        },
+        {
+            "dir": "/_ISO/Mint",
+            "class": "mint"
+        }
+    ]
+}
